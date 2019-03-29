@@ -1,0 +1,7 @@
+lint:
+  requireTableComment:
+    enabled: true
+  requireColumnComment:
+    enabled: true
+  unrelatedTable:
+    enabled: true

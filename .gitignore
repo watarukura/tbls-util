@@ -1,104 +1,110 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Created by .ignore support plugin (hsz.mobi)
+### Vim template
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
 
-# C extensions
-*.so
+# Session
+Session.vim
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+### macOS template
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Icon must end with two \r
+Icon
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Thumbnails
+._*
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Translations
-*.mo
-*.pot
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-# Scrapy stuff:
-.scrapy
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-# Sphinx documentation
-docs/_build/
+# CMake
+cmake-build-debug/
+cmake-build-release/
 
-# PyBuilder
-target/
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# File-based project format
+*.iws
 
-# pyenv
-.python-version
+# IntelliJ
+out/
 
-# celery beat schedule file
-celerybeat-schedule
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-# SageMath parsed files
-*.sage.py
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-# Environments
-.env
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+.tbls.yml
+.envrc
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
+.vscode
+.mypy_cache

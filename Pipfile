@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pylint = "*"
+mypy = "*"
+pyyaml = "*"
+
+[packages]
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+completion = "python comments_completion.py"
+dupcheck = "python comments_dupcheck.py"
