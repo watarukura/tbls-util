@@ -46,7 +46,7 @@ def write_all_comments_and_duplicate_comments(comments_list):
             duplicates_yaml[column] = comments_yaml[column]
     with open(DUPLICATE_COLUMN_COMMENTS_YAML, "w") as out:
         out.write(yaml.dump(duplicates_yaml, default_flow_style=False, allow_unicode=True, indent=4))
-    with open(COMMENTS_YAML, "w") as out:
+    with open(COLUMN_COMMENTS_YAML, "w") as out:
         out.write(yaml.dump(comments_yaml, default_flow_style=False, allow_unicode=True, indent=4))
 
 
